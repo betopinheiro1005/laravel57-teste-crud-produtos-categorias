@@ -48,9 +48,9 @@ Para testar o aplicativo inicie o servidor local (Apache) e o MySQL. Em seguida,
 
 ## Refazendo testes com os registros iniciais (originais)
 
-Depois de realizar diversos testes (criando, editando e excluindo categorias e produtos) você pode desejar recuperar as 17 categorias e/ou 52 produtos originais para refazer testes. Isso é possível de ser feito.
+Depois de realizar diversos testes (criando, editando e excluindo categorias e produtos), caso queira, você pode recuperar as 17 categorias e/ou 52 produtos originais para refazer testes.
 
-Há relacionamento entre as tabelas **products** e **categories**. Dessa forma, excluindo uma categoria, todos os seus respectivos produtos também serão excluídos.
+Há relacionamento entre as tabelas **products** e **categories**. Dessa forma, excluindo uma categoria, todos os produtos dessa categoria também serão excluídos.
 
 Para refazer os testes com todos os 52 registros de produtos e 17 registros de categorias originais faça o seguinte:
 
@@ -59,10 +59,10 @@ Para refazer os testes com todos os 52 registros de produtos e 17 registros de c
 - Clique no botão **Reconstruir base de testes**.
 - Toda a base de testes original será automaticamente reconstruída.
 
-As outras duas opções são:
+Os outros dois botões são:
 
-- Clicar no botão **Reconstruir categorias**. Nesse caso serão reconstruídas apenas as 17 categorias de produtos, porém nenhuma delas com produtos cadastrados.
-- Clicar no botão **Cadastrar categoria**. Nesse caso, não será recuperado nenhuma categoria ou produto. Você apenas será redirecionado para o formulário de cadastro de categorias. Depois de cadastrar uma ou mais categorias de produtos, você já poderá cadastrar produtos nessas categorias.
+- **Reconstruir categorias**: Clicando nesse botão, serão reconstruídas apenas as 17 categorias de produtos, porém nenhuma delas com produtos cadastrados.
+- **Cadastrar categoria**. Clicando nesse botão não será recuperado nenhuma categoria ou produto. Você apenas será redirecionado para o formulário de cadastro de categorias. Depois de cadastrar uma ou mais categorias de produtos, você poderá cadastrar produtos nessas categorias.
 
 <br>
 
