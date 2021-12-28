@@ -27,7 +27,13 @@ Pacote de serviços integrados (xampp, wamp server, Laragon ou outro qualquer) q
 - MySQL
 - Ferramenta para administração de bancos de dados (como por exemplo, o phpmyadmin)
 
-## Instalação
+## Instalação de dependências
+
+```bash
+composer install
+```
+
+## Preparação do ambiente  
 
 1. Crie em seu computador uma pasta com o nome **teste-spot** e descompacte os arquivos baixados nessa pasta.
 2. Acesse o **phpmyadmin** com:
